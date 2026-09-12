@@ -1,58 +1,44 @@
-# 📚 IPTransit-FR — Website V1
+# IPTransit-FR Website — Version 2
 
-**Books. Knowledge. Stories Without Borders.**
+A redesigned and more robust Version 2 of the IPTransit-FR online bookstore.
 
-This repository contains Version 1 of the official **IPTransit-FR** online bookstore website.
+## Why V2
 
-## Included in V1
+Version 2 removes the JSON `fetch()` dependency from the storefront and embeds the demo catalog directly in JavaScript. This makes the site more reliable on GitHub Pages and avoids the most common issue where the page renders as plain HTML because resources were uploaded into the wrong folder.
 
-- Professional responsive homepage
-- Full bookstore/catalog page
-- Search and category filters
-- Sorting by price, title, and rating
-- 12 original demonstration book listings
-- Dynamic individual book detail page
-- Functional shopping cart using browser `localStorage`
-- Functional wishlist using browser `localStorage`
-- Responsive mobile navigation
-- About page
-- Contact page with demo form behavior
-- FAQ page
-- Draft Privacy Policy
-- Draft Terms of Service
-- Custom 404 page
-- SEO-ready `robots.txt` and `sitemap.xml`
-- Web app manifest
-- Company brand image
-- Fully static architecture suitable for GitHub Pages
+## Included
 
-## Important
+- Responsive professional homepage
+- Books catalog
+- Search
+- Category filters
+- Sorting
+- Individual book page
+- Browser-based cart
+- Browser-based wishlist
+- About
+- Contact
+- FAQ
+- Privacy draft
+- Terms draft
+- Custom 404
+- Mobile navigation
+- Self-contained HTML pages with inline CSS and JavaScript fallback
+- GitHub Pages-compatible relative links
 
-Version 1 is a **front-end demonstration storefront**.
+## Correct upload structure
 
-The following production services are **not yet connected**:
-
-- Real payment processing
-- Customer authentication
-- Database
-- Inventory synchronization
-- Live order fulfillment
-- Transactional email delivery
-- Live contact form backend
-
-## Project Structure
+**Important:** upload the CONTENTS of this folder to the root of the repository.
 
 ```text
-IPTransit-FR-v1/
+repository-root/
 ├── assets/
-│   └── images/
-│       └── iptransit-fr-logo.png
-├── css/
-│   └── style.css
-├── data/
-│   └── books.json
-├── js/
-│   └── app.js
+│   ├── css/
+│   │   └── site.css
+│   ├── img/
+│   │   └── brand-logo.png
+│   └── js/
+│       └── site.js
 ├── pages/
 │   ├── about.html
 │   ├── book.html
@@ -64,52 +50,32 @@ IPTransit-FR-v1/
 │   └── terms.html
 ├── 404.html
 ├── index.html
-├── manifest.webmanifest
-├── robots.txt
-├── sitemap.xml
-├── .gitignore
-└── README.md
+├── README.md
+└── .nojekyll
 ```
 
-## Local Preview
-
-Because the catalog is loaded from `data/books.json`, preview the project through a local web server rather than opening the HTML file directly.
-
-### Python
-
-```bash
-python -m http.server 8000
-```
-
-Then visit:
-
-```text
-http://localhost:8000
-```
+Do **not** upload the outer `IPTransit-FR-v2` folder itself as a nested folder if GitHub Pages is configured to publish from the repository root.
 
 ## GitHub Pages
 
-Upload the complete contents of this folder to your GitHub repository.
+1. Upload all files and folders shown above.
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Select `main` and `/ (root)`.
+5. Save.
+6. Wait for GitHub Pages to finish deployment.
 
-Then:
+## Important V2 limitation
 
-1. Open the repository **Settings**
-2. Select **Pages**
-3. Under **Build and deployment**, choose **Deploy from a branch**
-4. Select the `main` branch and `/ (root)`
-5. Save
-
-## Brand Information
-
-- **Company:** IPTransit-FR
-- **Industry:** Books & E-Commerce
-- **Public Location Used in V1:** New York, NY, United States
-- **General Contact:** contact@iptransit-fr.com
-- **Customer Support:** support@iptransit-fr.com
-- **Slogan:** Books. Knowledge. Stories Without Borders.
+This is a front-end demo. Live payments, database, authentication, inventory, order fulfillment, and transactional email are not connected.
 
 ## Version
 
-`1.0.0`
+`2.0.0`
 
-© 2026 IPTransit-FR. All rights reserved.
+© 2026 IPTransit-FR.
+
+
+## Reliability improvement
+
+Every HTML page in V2 contains its CSS and JavaScript inline. The `assets/css` and `assets/js` copies are also included for easier future development. This prevents the unstyled/plain-HTML problem if GitHub Pages asset paths are misconfigured.
