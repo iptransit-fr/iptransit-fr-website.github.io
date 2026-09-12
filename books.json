@@ -1,0 +1,134 @@
+[
+  {
+    "id": "silent-horizon",
+    "title": "The Silent Horizon",
+    "author": "Amelia Hart",
+    "category": "Fiction",
+    "price": 18.99,
+    "rating": 4.8,
+    "badge": "Bestseller",
+    "cover": "cover-a",
+    "description": "A reflective literary journey about ambition, distance, and the choices that shape a life."
+  },
+  {
+    "id": "build-better",
+    "title": "Build Better",
+    "author": "Marcus Reed",
+    "category": "Business",
+    "price": 22.0,
+    "rating": 4.7,
+    "badge": "Editor's Pick",
+    "cover": "cover-b",
+    "description": "A practical guide to building stronger teams, clearer systems, and sustainable organizations."
+  },
+  {
+    "id": "future-systems",
+    "title": "Future Systems",
+    "author": "Nora Kim",
+    "category": "Technology",
+    "price": 24.5,
+    "rating": 4.9,
+    "badge": "New",
+    "cover": "cover-c",
+    "description": "An accessible look at artificial intelligence, automation, digital infrastructure, and what comes next."
+  },
+  {
+    "id": "small-steps",
+    "title": "Small Steps",
+    "author": "Daniel Brooks",
+    "category": "Personal Growth",
+    "price": 16.75,
+    "rating": 4.6,
+    "badge": "Popular",
+    "cover": "cover-d",
+    "description": "A practical framework for creating meaningful progress through simple daily actions."
+  },
+  {
+    "id": "atlas-of-ideas",
+    "title": "Atlas of Ideas",
+    "author": "Sofia Bennett",
+    "category": "Education",
+    "price": 19.9,
+    "rating": 4.5,
+    "badge": "Recommended",
+    "cover": "cover-e",
+    "description": "A visual introduction to influential ideas across science, culture, philosophy, and history."
+  },
+  {
+    "id": "moonlight-library",
+    "title": "The Moonlight Library",
+    "author": "Clara Wells",
+    "category": "Fiction",
+    "price": 17.25,
+    "rating": 4.8,
+    "badge": "Staff Favorite",
+    "cover": "cover-f",
+    "description": "A warm, atmospheric story about an old library, hidden letters, and unexpected second chances."
+  },
+  {
+    "id": "money-with-purpose",
+    "title": "Money With Purpose",
+    "author": "Ethan Cole",
+    "category": "Business",
+    "price": 21.4,
+    "rating": 4.7,
+    "badge": "Trending",
+    "cover": "cover-g",
+    "description": "A clear approach to personal finance, intentional spending, saving, and long-term planning."
+  },
+  {
+    "id": "learning-loop",
+    "title": "The Learning Loop",
+    "author": "Maya Singh",
+    "category": "Education",
+    "price": 18.4,
+    "rating": 4.6,
+    "badge": "New",
+    "cover": "cover-h",
+    "description": "Learn how feedback, practice, and reflection can turn curiosity into durable knowledge."
+  },
+  {
+    "id": "human-code",
+    "title": "Human Code",
+    "author": "Leo Martin",
+    "category": "Technology",
+    "price": 23.95,
+    "rating": 4.8,
+    "badge": "Popular",
+    "cover": "cover-i",
+    "description": "A human-centered exploration of software, algorithms, and the decisions embedded in technology."
+  },
+  {
+    "id": "brave-little-comet",
+    "title": "The Brave Little Comet",
+    "author": "Emma Lane",
+    "category": "Children",
+    "price": 12.99,
+    "rating": 4.9,
+    "badge": "Family Pick",
+    "cover": "cover-j",
+    "description": "A colorful story for young readers about courage, friendship, and finding your own path."
+  },
+  {
+    "id": "quiet-focus",
+    "title": "Quiet Focus",
+    "author": "Adrian Moore",
+    "category": "Personal Growth",
+    "price": 15.9,
+    "rating": 4.7,
+    "badge": "Bestseller",
+    "cover": "cover-k",
+    "description": "Practical strategies to protect attention, reduce distraction, and make space for meaningful work."
+  },
+  {
+    "id": "worlds-between-pages",
+    "title": "Worlds Between Pages",
+    "author": "Isabelle Laurent",
+    "category": "Fiction",
+    "price": 20.5,
+    "rating": 4.8,
+    "badge": "Featured",
+    "cover": "cover-l",
+    "description": "A sweeping novel about memory, migration, family, and the stories people carry across borders."
+  }
+]
