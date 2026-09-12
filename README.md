@@ -59,3 +59,17 @@ Version 4 is still a front-end demo. Live payment processing, customer accounts,
 - Phone appears in the utility bar, support ribbon, homepage support center, contact page, footer, and floating call button.
 
 > Important: `+1 (212) 555-0148` is a **fictional placeholder number reserved for demonstration use**. Replace it with the company's real support number before public launch.
+
+
+## V4.1 Favicon Fix
+
+Version 4.1 adds the IPTransit-FR company logo as the browser tab icon (favicon).
+
+Included:
+- favicon.ico
+- favicon-16x16.png
+- favicon-32x32.png
+- apple-touch-icon.png
+- Android icons
+
+If an old browser icon remains after deployment, hard-refresh the page or clear the site's cached favicon.
